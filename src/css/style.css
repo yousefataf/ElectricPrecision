@@ -1329,7 +1329,7 @@ Responsive Styles
 }
 
 .portfolio2 {
-  /* padding: var(--space-xxl) 0; */
+  padding: var(--space-xxl) 0;
   background-color: var(--white);
 }
 
@@ -1359,4 +1359,9 @@ Responsive Styles
   padding-top: 20px;
   padding-bottom: 20px;
   /* color: #222; */
+}
+
+.portfolio2 img {
+  position: relative;
+  left: 20PX;
 }
